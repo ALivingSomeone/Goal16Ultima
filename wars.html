@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content= "width=device-width, initial-scale=1"><meta name="viewport" content= "width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style4.css">
+		<link rel="stylesheet" type = "text/css" href = "style4(adaptive).css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div id="menu">
+			<div class="el_menu">	
+				<a href="index.html">Main Page</a>	
+			</div>
+				
+			<div class="el_menu">	
+				<a href="decription.html">Description</a>	
+			</div>
+				
+			<div class="el_menu">
+				<a href="crimes.html">Crimes</a>
+			</div>
+				
+			<div class="el_menu">
+				<a href="wars.html">Wars</a>
+			</div>
+			<div class="el_menu">
+				<a href="quiz.html">Quiz</a>
+			</div>	
+			
+		</div>
+				
+		</div>
+		<div id="background2">
+			<div id="Title">
+				<h1>
+					At the current moment there are 10 ongoing wars in 
+					the world
+				</h1>
+			</div>
+			<div id="main_space">
+				<div class="rectangle">
+					<h1>
+						In 2021 U.S, China, India,
+						UK and Russia all together
+						spent 1 305 billions dollars 
+						on a military budget.
+						For this amount of money you 
+						build aproximatly 13 050 
+						hospitals.
+					</h1>
+					<img src="war1.jpg">
+				</div>
+				<div class="rectangle">
+					<img src="war2.jpg">
+					<h1>
+						In one them there was
+						6 221 recorded deaths of 
+						civilians with 396 of them being 
+						children. We are not even talking about 
+						victims in the army. Numbers rise 
+						all the time increasing amount of 
+						required coffins 
+					</h1>
+					
+				</div>
+				<div class="rectangle">
+					<h1>
+						From 2000 to 2020 United Nations 
+						registrated 20.66
+						million refugees all around 
+						the world.
+						There are 6,761 millions only 
+						from Syrian Arab Republic 
+						due to The Syrian Civil War
+					</h1>
+					<img src="war3.jpg">
+				</div>
+			</div>
+	
+		</div>
+		<div id="button">
+			<img src="menu.png" onclick="menu()">
+		</div>
+		<script>
+			function menu(){ 
+				const elements = document.querySelectorAll('.el_menu'); 
+				elements.forEach(function(element) { 
+					if (element.className == "el_menu") {
+						element.className += " el_menu_appear"; } 
+					else { 
+						element.className = "el_menu"; 
+					} 
+				}); 
+			}
+		</script>
+	</body>
+</html>

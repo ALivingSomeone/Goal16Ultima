@@ -1,0 +1,54 @@
+@media (max-width: 768px){
+	#main_space{
+		flex-direction: column;
+	}
+	#menu{
+		width: 98%;
+	}
+}
+@media (max-width: 416px){
+	.el_menu{
+		display: none;
+	}
+	#button{
+		display: block;
+		position: fixed;
+		width: 60px;
+		top: 1%;
+		right: 1%;
+	}
+	#button img{
+		width: 100%;
+	}
+	.el_menu_appear{
+		display: block;
+	}
+	#menu{
+		flex-direction: column;
+		left: 45%;
+		top: 5%;
+		width: 110%;
+	}
+}
+@media (min-width: 2560px){
+	#menu{
+		width: 85%;
+	}
+	.el_menu{
+		font-size: 500%;
+	}
+	#Title{
+		font-size: 400%;
+	}
+	.rectangle h1{
+		font-size: 640%;
+	}
+	#main_space{
+		gap: 0%;
+		top: 5%;
+	}
+	#background2{
+		width: 100%;
+		padding-top: 2%;
+	}
+}

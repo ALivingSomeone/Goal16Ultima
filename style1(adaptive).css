@@ -1,0 +1,112 @@
+@media (max-width: 768px){
+	#menu{
+		padding-left: 12%;
+	}
+	#menu_in_exile{
+		width: 125%;
+	}
+	#text_box{
+		flex-direction: row-reverse;
+		padding-top: 0%;
+		
+	}
+	#image{
+		width: 40%;
+		height: 40%;
+	}
+	#text1{
+		margin-left: 16%;
+		margin-right: 41%;
+		margin-top: 9%;
+		font-size: 142%;
+	}
+	#text1 h1{
+		margin: 0;
+		padding: 0;
+	}
+	#text2{
+		margin-top: 66%;
+		font-size: 404%;
+	}
+}
+@media (min-width: 2560px){
+	#text_box{
+		padding-top: 0%;
+		margin-top: -3%;
+	}
+	#text1{
+		font-size: 355%;
+	}
+	#text2{
+		font-size: 1000%;
+		margin-top: -18%;
+	}
+	.el_menu{
+		font-size: 370%;
+	}
+}
+
+@media (max-width: 416px){
+	body{
+		position: static;
+	}
+	#menu{
+		
+		position: absolute;
+		padding-left: 0;
+	}
+	#menu img{
+		display: block;
+		width: 185%;
+		position: relative;
+		z-index: 2;
+	}
+	.el_menu{
+		display: none;
+		width: 120%;
+	}
+	#menu_in_exile{
+		
+		flex-direction: column;
+		margin-left: 17%;
+		margin-top: -28%;
+	}	
+	.el_menu_appear{
+		display: flex;
+		}
+	#background2{
+		flex-direction: column;
+	}
+	#background2 img{
+		display: none;
+	}
+	#image{
+		padding-left: 0;
+		padding-top: 20px;
+		padding-bottom: 0;
+		
+		height: 300px;
+		width: 300px;
+	}
+	#text1{
+		font-size: 30px;
+	}
+	#text1 h1{
+		padding: 0px;
+		margin: 0;
+	}
+	#text2{
+		font-size: 65px;
+		margin: 0px;
+		
+	}
+	#text2 h1{
+		margin: 0;
+		padding: 0px;
+	}
+	#text_box{
+		flex-direction: column-reverse;
+		padding-top: 90%;
+	}
+		
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content= "width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style1.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type = "text/css" href = "style1(adaptive).css">
+	</head>
+	
+	<body>
+		<div id="menu">
+			<img src="dove.png" onclick="menu()">
+			<div id="menu_in_exile">
+				<div class="el_menu">	
+					<a href="main_page.html">Main Page</a>	
+				</div>
+					
+				<div class="el_menu">	
+					<a href="decription.html">Description</a>
+				</div>
+					
+				<div class="el_menu">
+					<a href="crimes.html">Crimes</a>
+				</div>
+					
+				<div class="el_menu">
+					<a href="wars.html">Wars</a>
+				</div>
+				<div class="el_menu">
+					<a href="quiz.html">Quiz</a>
+				</div>	
+				
+			</div>	
+		</div>
+		<div id="background2">
+		
+			<img src="dove.png" id="image">
+			<div id="text_box">
+				<div id="text1">
+					<h1>
+						Promote peaceful and inclusive 
+						societies for sustainable 
+						development, provide access to 
+						justice for all and build 
+						effective, accountable and
+						inclusive institutions at all 
+						levels
+					</h1>
+				</div>
+				<div id="text2">
+					<h1>
+						Goal 16
+					</h1>
+				</div>
+			</div>
+		</div>
+		<script>
+			function menu(){ 
+				const elements = document.querySelectorAll('.el_menu'); 
+				elements.forEach(function(element) { 
+					if (element.className == "el_menu") {
+						element.className += " el_menu_appear"; } 
+					else { 
+						element.className = "el_menu"; 
+					} 
+				}); 
+			}
+		</script>
+	</body>
+</html>

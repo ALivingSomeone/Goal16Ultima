@@ -1,0 +1,60 @@
+@media (max-width: 768px){
+	#box_blue{
+		width: 59%;
+	}
+	#menu{
+		width: 75%;
+		padding-left: 13%;
+	}
+	#subtitle{
+		width: 96%;
+	}
+	#text1{
+		font-size: 188%;
+	}
+	#text1 h1{
+		margin: 0%;
+	}
+	#text2{
+		width: 100%;
+		font-size: 193%;
+	}
+}
+@media (max-width: 416px){
+	#box_blue{
+		width: 137%;
+	}
+	#text_box{
+		width: 80%;
+	}
+	#text2{
+		width: 98%;
+	}
+	#menu{
+		padding-left: 11%;
+	}
+	.el_menu{
+		font-size: 207%;
+	}
+}
+@media (min-width: 2560px){
+	#title{
+		font-size: 400%;
+	}
+	#subtitle{
+		font-size: 190%;
+	}
+	#text1{
+		font-size: 230%;
+	}
+	#text2{
+		width: 100%;
+		font-size: 281%;
+	}
+	#image{
+		width: 100%;
+	}
+	.el_menu{
+		font-size: 380%;
+	}
+}
